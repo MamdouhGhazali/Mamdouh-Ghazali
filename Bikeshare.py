@@ -22,8 +22,6 @@ def get_filters():
     while True:
         if city not in ("chicago", "new york city", "washington"):
             print("please enter a valid city name.")
-            continue
-        else:
             break
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -31,7 +29,7 @@ def get_filters():
     while True:
         if month not in ("january","february","march","april","may","june","all"):
             print("please enter a valid month.")
-            continue
+          
         else:
             break
 
@@ -40,8 +38,7 @@ def get_filters():
     while True:
         if day not in ("monday","tuesday","wednsday","thursday","friday","Saturday","sunday","all"):
             print("please enter a valid day.")
-            continue
-        else:
+         else:
             break
 
 
